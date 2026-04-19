@@ -12,22 +12,20 @@ function ProductCard({ product, index }) {
       whileHover={{ y: -6, transition: { duration: 0.2 } }}
       className="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 flex flex-col"
     >
-      <div className="aspect-[4/3] bg-gradient-to-br from-blue-50 to-slate-100 flex items-center justify-center p-8">
+      <div className="aspect-[4/3] bg-gradient-to-br from-slate-900 to-blue-950 overflow-hidden flex items-center justify-center">
         {product.image ? (
           <img
             src={product.image}
             alt={product.title}
-            className="w-full h-full object-contain"
+            className="w-full h-full object-cover"
           />
         ) : (
-          <div className="w-32 h-32 rounded-2xl bg-apple-blue/10 flex items-center justify-center">
-            <span className="text-5xl">💧</span>
-          </div>
+          <span className="text-6xl">💧</span>
         )}
       </div>
 
       <div className="p-8 flex flex-col flex-1">
-        <h3 className="font-bold text-apple-dark text-title mb-3"
+        <h3 className="font-bold text-apple-dark mb-3"
             style={{ fontSize: '22px', lineHeight: '1.2' }}>
           {product.title}
         </h3>
@@ -59,7 +57,7 @@ function ProductCard({ product, index }) {
 
 export default function Products() {
   return (
-    <section id="products" className="section-padding bg-white">
+    <section id="products" className="section-padding bg-apple-gray">
       <div className="content-width">
         <motion.div
           className="text-center mb-16"

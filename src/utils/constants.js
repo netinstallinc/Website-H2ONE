@@ -11,7 +11,7 @@ export const PRODUCTS = [
     title: 'Hydrogen Drinking System',
     slug: '/hydrogensystem',
     description: 'Whole-home hydrogen-infused drinking water with advanced multi-stage filtration and molecular hydrogen enrichment at the point of use.',
-    image: '/images/hydrogen-system.jpg',
+    image: '/images/product-hydrogen-system.png',
     features: ['Molecular H₂ Enrichment', 'Multi-Stage Filtration', 'Smart Flow Control', 'NSF Certified'],
   },
   {
@@ -19,7 +19,7 @@ export const PRODUCTS = [
     title: 'Water Systems H2ONE Pure',
     slug: '/h2one-pure',
     description: 'Compact under-counter purification system delivering ultra-pure hydrogen water with a sleek faucet — ideal for kitchens and offices.',
-    image: '/images/h2one-pure.jpg',
+    image: '/images/product-h2one-pure.png',
     features: ['Under-Counter Install', 'RO + H₂ Technology', 'Smart TDS Monitor', 'Alkaline Balanced'],
   },
   {
@@ -27,7 +27,7 @@ export const PRODUCTS = [
     title: 'Diamond Shower Filter',
     slug: '/shower-filter',
     description: 'Remove chlorine, heavy metals, and sediment from your shower water. Experience softer skin, healthier hair, and better well-being every day.',
-    image: '/images/shower-filter.jpg',
+    image: '/images/product-shower-filter.png',
     features: ['Chlorine Removal', 'Heavy Metal Reduction', 'Universal Fit', '6-Month Filter Life'],
   },
 ];
@@ -67,10 +67,10 @@ export const STATS = [
 ];
 
 export const FEATURES = [
-  { icon: '💧', label: 'Premium Water' },
-  { icon: '🔬', label: 'Advanced Purification' },
-  { icon: '⚡', label: 'Hydrogen-Enhanced' },
-  { icon: '🛡️', label: 'Extended Warranty' },
-  { icon: '🔧', label: 'Professional Install' },
-  { icon: '🤝', label: 'Support Team' },
+  { icon: '/images/icon-premium.png', label: 'Premium Water' },
+  { icon: '/images/icon-water.png', label: 'Advanced Purification' },
+  { icon: '/images/icon-hydrogen.png', label: 'Hydrogen-Enhanced' },
+  { icon: '/images/icon-premium-badge.png', label: 'Extended Warranty' },
+  { icon: '/images/icon-tools.png', label: 'Professional Install' },
+  { icon: '/images/icon-support.png', label: 'Support Team' },
 ];

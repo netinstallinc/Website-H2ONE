@@ -5,17 +5,15 @@ import { STATS } from '../../utils/constants';
 export default function WhyUs() {
   return (
     <section id="why-us" className="section-padding relative overflow-hidden">
-      <div
-        className="absolute inset-0 bg-gradient-to-br from-[#001228] via-[#002a6e] to-[#0050b3]"
+      {/* Background image */}
+      <img
+        src="/images/water-bg.jpg"
+        alt=""
         aria-hidden="true"
+        className="absolute inset-0 w-full h-full object-cover"
       />
-      <div
-        className="absolute inset-0 opacity-30"
-        style={{
-          backgroundImage: 'radial-gradient(ellipse at 80% 20%, rgba(0,113,227,0.5) 0%, transparent 60%)',
-        }}
-        aria-hidden="true"
-      />
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/60" aria-hidden="true" />
 
       <div className="relative z-10 content-width">
         <motion.div
