@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
-const HERO_VIDEO_MP4 = 'https://cdn.prod.website-files.com/6967b7d6ca268b7c5aee11f6/6984c05de25da4bb7947937f_WhatsApp%20Video%202026-02-04%20at%20195901%20%281%29_mp4.mp4';
-const HERO_VIDEO_WEBM = 'https://cdn.prod.website-files.com/6967b7d6ca268b7c5aee11f6/6984c05de25da4bb7947937f_WhatsApp%20Video%202026-02-04%20at%20195901%20%281%29_webm.webm';
+const HERO_VIDEO_MP4 = 'https://cdn.prod.website-files.com/6967b7d6ca268b7c5aee11f6%2F6984cc1e1bc921d7a5c15805_2026-01-29%2018_44_23%20%281%29_mp4.mp4';
+const HERO_VIDEO_WEBM = 'https://cdn.prod.website-files.com/6967b7d6ca268b7c5aee11f6%2F6984cc1e1bc921d7a5c15805_2026-01-29%2018_44_23%20%281%29_webm.webm';
 
 export default function Hero() {
   return (
